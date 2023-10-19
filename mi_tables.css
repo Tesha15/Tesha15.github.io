@@ -50,20 +50,19 @@ col.dataCols {
 
 /* Table Header Styles */
 
-table.pricing {
+thead {
 	height: 60px;
 }
 
 
-th:first-of-type {
+thead tr:first-of-type th:first-of-type {
 	font-size: 2em;
 }
 
-th:not(first-of-type) {
+ thead tr:first-of-type th:not(:first-of-type) {
 	background-color: transparent;
 	color: black;
 }
-
 
 
 
