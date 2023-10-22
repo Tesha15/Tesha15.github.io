@@ -27,7 +27,7 @@ function showClock() {
 
 	var j4Date = nextJuly4(thisDay);
 	j4Date.setHours(21);
-	/*setHours("nextJuly4()", 21:00);*/
+	setHours("nextJuly4()", 21:00);
 
 	/* Calculate the days, hrs, min, secs until July 4th */
 	var days = (j4date - thisDay)/(1000*60*60*24);
