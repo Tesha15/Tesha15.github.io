@@ -19,7 +19,8 @@ setInterval("showClock()", 1000);
 /* run and display clock */
 
 function showClock() { 
-	var thisDay = new Date("May 19, 2018 9:31:27");
+	/*var thisDay = new Date("May 19, 2018 9:31:27");*/
+	var currentDay = new Date();
 	var localDate = thisDay.toLocaleDateString();
 	var localTime = thisDay.toLocaleTimeString();
 	
