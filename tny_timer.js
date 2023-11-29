@@ -15,20 +15,21 @@
 showClock();
 setInterval("showClock()", 1000);
  
-    
+
+
+
+
 /* run and display clock */
 
 function showClock() { 
-	/*var thisDay = new Date("May 19, 2018 9:31:27");*/
-	var currentDay = new Date();
+	var thisDay = new Date();
 	var localDate = thisDay.toLocaleDateString();
 	var localTime = thisDay.toLocaleTimeString();
 	
-	document.getElementById("currentTime").innerHTML = localDate + "<br />" localTime;
+	document.getElementById("currentTime").innerHTML = localDate + "<br />" + localTime;
 
 	var j4Date = nextJuly4(thisDay);
-	j4Date.setHours(21);
-	setHours("nextJuly4()", 21:00);
+	j4Date.setHours("nextJuly4()", 21:00);
 
 	/* Calculate the days, hrs, min, secs until July 4th */
 	var days = (j4date - thisDay)/(1000*60*60*24);
@@ -41,7 +42,6 @@ function showClock() {
 	document.getElementById("mLeft").textContent = Math.floor(mins);
 	document.getElementById("sLeft").textContent = Math.floor(secs);
 }	
-
 
 function nextJuly4(currentDate) {
 	var cYear = currentDate.getFullYear();
