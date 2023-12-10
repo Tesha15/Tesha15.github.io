@@ -1,0 +1,155 @@
+@charset "utf-8";
+
+
+/*
+  Filename: format.css
+*/
+
+
+
+
+
+html {
+	height: 100%;
+}
+
+
+img, object {
+	max-width: 100%;
+	
+}
+
+
+
+header {
+	margin-bottom: 100px;
+	width: 100%;
+	text-align: center;
+	font-size: 24px;
+	font-family: Lucida Handwriting
+}
+
+
+
+header img {
+	width: 100%;
+}
+
+
+	
+
+h2, h3, h4, h5 {
+	padding-top: 10%;
+	font-family: comic sans MS;
+	font-size: 24px;
+	text-align: left;
+}
+
+aside {
+	text-align: center;
+	font-family: comic sans MS;
+	font-size: 24px;
+	text-decoration: none;
+	padding-top: 0.9%;
+}
+	
+	
+	
+	
+body {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	padding-left: 4.55%;
+	padding-right: 4.55%;
+	clear: none;
+	float: none;
+	min-height: 100%;
+}
+
+
+
+
+
+footer {
+	width: 96%;
+	clear: left;
+	text-align: center;
+	font-size: 0.45em;
+	margin-top: 30px;
+	border-top: double;
+	font-family: "Times New Roman", Times, serif;
+	
+}
+
+
+
+/* =============================================
+	Tablet layout styles used by devices
+	481px to 768px and cascaded to larger 
+	devices.
+   =============================================
+*/
+
+@media only screen and (min-width: 481px) {
+body {
+	width: 91.14%;
+	padding-left: 0.93%;
+	padding-right: 0.93%;
+	clear: none;
+	float: none;
+	margin-left: auto;
+}
+
+nav a {
+	width: 32%;
+	height: auto;
+	float: left;
+	clear: none;
+	overflow: visible;
+	margin-bottom: 0px;
+	text-decoration: none;
+}
+
+
+nav a img {
+ width: 100%;
+ height: 100%;
+}
+
+
+
+footer {
+	font-size: 0.8em;
+}
+
+
+/* =============================================
+	Desktop layout styles used by  devices
+	769px and larger.
+   =============================================
+*/
+
+@media only screen and (min-width: 769px) {
+html {
+	background-color: pink;
+}
+
+
+body {
+	width: 100%;
+	max-width: 900px;
+	padding-left: 0.5%;
+	padding-right: 0.5%;
+	margin: auto;
+	clear: none;
+	float: none;
+	margin-left: auto;
+	background-color: white;
+}
+
+
+footer {
+	font-size: 1.2em;
+}
+
